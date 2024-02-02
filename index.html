@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>how to add on click to bitton in js</title>
+    <style>
+        .box{
+            color:rgb(212, 84, 10);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        Text Hello SHRI!!
+    </div>
+    
+    <button onclick="changeColor('blue')">Blue</button>
+    <button onclick="changeColor('violet')">Violet</button>
+    <button onclick="changeColor('green')">Green</button>
+    <script>
+        function changeColor(color){
+            document.querySelector('.box').style.color=color;
+        }
+    </script>
+    
+</body>
+</html>
